@@ -3,16 +3,18 @@ GET http://localhost:4000/api/calculate/fibonnaci?value=5
 
 ###
 
-GET http://localhost:4000/api/calculate/checkPalindrome?string=5
+GET http://localhost:4000/api/calculate/checkPalindrome?string='madama'
 
 ###
-GET http://localhost:4000/api/calculate/randomNumber?min=5&max=10
+GET http://localhost:4000/api/calculate/randomNumber?max=10&min=5
+//this route is not working
+###
+GET http://localhost:4000/api/calculate/reverseString?string='madama'
+###
+GET http://localhost:4000/api/calculate/sumOfDigits?number=99999
 
 ###
-GET http://localhost:4000/api/calculate/reverseString?string=5
-###
-GET http://localhost:4000/api/calculate/sumOfDigits?number=5
-
+GET http://localhost:4000/api/calculate/factorial?value=9
 
 
 // resource https://chat.openai.com/share/b6c693d9-f503-4377-aaf7-5f303a1c0357
