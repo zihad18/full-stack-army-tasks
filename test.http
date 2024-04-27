@@ -6,8 +6,8 @@ GET http://localhost:4000/api/calculate/fibonnaci?value=5
 GET http://localhost:4000/api/calculate/checkPalindrome?string='madama'
 
 ###
-GET http://localhost:4000/api/calculate/randomNumber?max=10&min=5
-//this route is not working
+GET http://localhost:4000/api/calculate/randomNumber?max=100&min=5
+
 ###
 GET http://localhost:4000/api/calculate/reverseString?string='madama'
 ###
